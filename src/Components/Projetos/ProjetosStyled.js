@@ -16,6 +16,7 @@ export const MeusProjetos = styled.div`
 export const TituloProjeto = styled.p`
   font-weight: 600;
   font-size: 1.3rem;
+  padding-bottom: 1rem;
 `
 
 export const Projeto = styled.div`
@@ -23,6 +24,22 @@ export const Projeto = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 1rem;
+  margin-bottom: 2rem;
+
+  &::after {
+    content: '';
+    width: 200px;
+    border-bottom: 2px solid #dcb6e1;
+  }
+`
+
+export const ContainerImg = styled.div`
+  img {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 1rem;
+  }
 `
 
 export const Imagem = styled.img`
@@ -30,6 +47,7 @@ export const Imagem = styled.img`
   height: 150px;
   background-size: cover;
   border-radius: 1rem;
+  border: 1px solid white;
 `
 
 export const SobreContainer = styled.div`
