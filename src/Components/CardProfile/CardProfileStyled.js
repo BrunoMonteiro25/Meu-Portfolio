@@ -1,12 +1,16 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-  border: 1px solid #fff;
   height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #333;
+  background: rgba(52, 48, 51, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 2px solid #dcb6e1;
 `
 
 export const FotoContainer = styled.div`
