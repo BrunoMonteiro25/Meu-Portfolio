@@ -52,12 +52,14 @@ export const Tecnologias = styled.div`
 `
 
 export const Sobre = styled.p`
-  padding: 0 2rem 1.5rem 2rem;
-  line-height: 1.3;
+  padding: 0 1.5rem 1.5rem 3rem;
+  line-height: 1.5;
   font-size: 0.8rem;
+  max-width: 400px;
 
   span {
     font-weight: bold;
+    text-align: center;
   }
 `
 

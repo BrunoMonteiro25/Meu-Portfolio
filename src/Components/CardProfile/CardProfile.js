@@ -12,7 +12,7 @@ import { DiHtml5, DiCss3, DiJsBadge, DiReact } from 'react-icons/di'
 import { BsDownload } from 'react-icons/bs'
 
 import Foto from '../../../src/Assets/foto.jpg'
-//import Teste from './teste.pdf'
+import Curriculo from './curriculo_bruno.pdf'
 
 const CardProfile = () => {
   return (
@@ -30,13 +30,18 @@ const CardProfile = () => {
         <DiReact style={{ color: '#61DBFB', fontSize: '2.3rem' }} />
       </Tecnologias>
       <Sobre>
-        <span>Sobre mim: </span>Contrary to popular belief, Lorem Ipsum is not
-        simply random text. It has roots in a piece of classical Latin
-        literature from 45 BC, making it over 2000 years old. Richard
-        McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-        looked up one of the more obscure Latin words.
+        <span>
+          Sobre mim: <br></br>
+        </span>
+        Apaixonado por tecnologia, atualmente aperfeiçoando meus conhecimentos
+        técnicos em desenvolvimento front-end com as tecnologias Javascript e
+        ReactJS.
       </Sobre>
-      <BaixarCurriculo href="" download="teste.pdf" type="appication/pdf">
+      <BaixarCurriculo
+        href={Curriculo}
+        download="curriculo_bruno.pdf"
+        type="appication/pdf"
+      >
         <BsDownload style={{ fontSize: '1.2rem' }} />
         Download CV
       </BaixarCurriculo>
