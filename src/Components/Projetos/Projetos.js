@@ -37,7 +37,7 @@ const Projetos = () => {
         'Lista de filmes populares, consumida da API gratuita, The Movies DB.',
       tecnologias:
         'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS e Styled Components',
-      botaoDemo: '',
+      botaoDemo: 'https://www.google.com/',
       botaoGit: 'https://github.com/BrunoMonteiro25/api-filmes',
     },
     {
@@ -46,7 +46,7 @@ const Projetos = () => {
       titulo: 'Projeto Dogs',
       sobre: 'Uma rede social tipo instagram, mas para cachorros.',
       tecnologias: 'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS',
-      botaoDemo: '',
+      botaoDemo: 'https://www.google.com/',
       botaoGit: 'https://github.com/BrunoMonteiro25/Dogs',
     },
   ]
@@ -68,10 +68,18 @@ const Projetos = () => {
                 {projeto.tecnologias}
               </TecnologiasUsadas>
               <Botoes>
-                <Demo>
-                  <FaExternalLinkAlt />
-                  Demo
-                </Demo>
+                {projeto.id === 1 && (
+                  <Demo style={{ cursor: 'no-drop' }}>
+                    <FaExternalLinkAlt />
+                    Demo
+                  </Demo>
+                )}
+                {projeto.id != 1 && (
+                  <Demo href={projeto.botaoDemo} target="_blank">
+                    <FaExternalLinkAlt />
+                    Demo
+                  </Demo>
+                )}
                 <Repositorio href={projeto.botaoGit} target="_blank">
                   <FaGithub />
                   Repositório
