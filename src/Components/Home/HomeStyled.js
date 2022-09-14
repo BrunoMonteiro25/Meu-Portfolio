@@ -7,6 +7,7 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
+  overflow: hidden;
 
   @media (max-width: 54rem) {
     grid-template-columns: 1fr;

@@ -26,6 +26,8 @@ const Projetos = () => {
       sobre: 'Meu portfólio pessoal feito em React com Styled Components.',
       tecnologias:
         'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS e Styled Components',
+      botaoDemo: '',
+      botaoGit: 'https://github.com/BrunoMonteiro25/Meu-Portfolio',
     },
     {
       id: 2,
@@ -35,6 +37,8 @@ const Projetos = () => {
         'Lista de filmes populares, consumida da API gratuita, The Movies DB.',
       tecnologias:
         'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS e Styled Components',
+      botaoDemo: '',
+      botaoGit: 'https://github.com/BrunoMonteiro25/api-filmes',
     },
     {
       id: 3,
@@ -42,6 +46,8 @@ const Projetos = () => {
       titulo: 'Projeto Dogs',
       sobre: 'Uma rede social tipo instagram, mas para cachorros.',
       tecnologias: 'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS',
+      botaoDemo: '',
+      botaoGit: 'https://github.com/BrunoMonteiro25/Dogs',
     },
   ]
 
@@ -50,7 +56,7 @@ const Projetos = () => {
       <TituloProjeto>Meus Projetos</TituloProjeto>
       {projetos.map((projeto) => {
         return (
-          <Projeto>
+          <Projeto key={projeto.id}>
             <ContainerImg>
               <img src={projeto.imagem} alt={projeto.titulo} />
             </ContainerImg>
@@ -66,7 +72,7 @@ const Projetos = () => {
                   <FaExternalLinkAlt />
                   Demo
                 </Demo>
-                <Repositorio>
+                <Repositorio href={projeto.botaoGit} target="_blank">
                   <FaGithub />
                   Repositório
                 </Repositorio>

@@ -80,7 +80,7 @@ export const Botoes = styled.div`
   margin-top: 1rem;
 `
 
-export const Demo = styled.button`
+export const Demo = styled.a`
   display: flex;
   align-items: center;
   gap: 0.4rem;

@@ -6,10 +6,13 @@ import {
   Nome,
   Sobre,
   Tecnologias,
+  BaixarCurriculo,
 } from './CardProfileStyled'
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from 'react-icons/di'
+import { BsDownload } from 'react-icons/bs'
 
 import Foto from '../../../src/Assets/foto.jpg'
+//import Teste from './teste.pdf'
 
 const CardProfile = () => {
   return (
@@ -33,6 +36,10 @@ const CardProfile = () => {
         McClintock, a Latin professor at Hampden-Sydney College in Virginia,
         looked up one of the more obscure Latin words.
       </Sobre>
+      <BaixarCurriculo href="" download="teste.pdf" type="appication/pdf">
+        <BsDownload style={{ fontSize: '1.2rem' }} />
+        Download CV
+      </BaixarCurriculo>
     </Card>
   )
 }
