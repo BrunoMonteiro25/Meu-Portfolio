@@ -11,6 +11,14 @@ export const Card = styled.div`
   backdrop-filter: blur(6.6px);
   -webkit-backdrop-filter: blur(6.6px);
   border: 2px solid #dcb6e1;
+
+  @media (max-width: 54rem) {
+    max-width: 25rem;
+  }
+
+  @media (max-width: 24rem) {
+    max-width: 18rem;
+  }
 `
 
 export const FotoContainer = styled.div`

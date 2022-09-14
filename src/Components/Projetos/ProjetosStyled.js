@@ -31,6 +31,13 @@ export const Projeto = styled.div`
     width: 200px;
     border-bottom: 2px solid #dcb6e1;
   }
+
+  @media (max-width: 33rem) {
+    max-width: 500px;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
 `
 
 export const ContainerImg = styled.div`
@@ -39,6 +46,14 @@ export const ContainerImg = styled.div`
     height: 150px;
     background-size: cover;
     border-radius: 1rem;
+    border: 2px solid #e7c7eb;
+  }
+
+  @media (max-width: 33rem) {
+    img {
+      width: 320px;
+      height: 200px;
+    }
   }
 `
 
@@ -54,12 +69,31 @@ export const SobreContainer = styled.div`
   font-size: 0.8rem;
   display: grid;
   gap: 0.3rem;
+
+  @media (max-width: 33rem) {
+    align-items: center;
+    justify-items: center;
+  }
 `
 
 export const Titulo = styled.p`
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
+
+  @media (max-width: 33rem) {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    &:after {
+      content: '';
+      width: 30px;
+      border-bottom: 3px solid #e7c7eb;
+      margin: 0.3rem 0;
+    }
+  }
 `
 
 export const TecnologiasUsadas = styled.p`
@@ -70,6 +104,10 @@ export const TecnologiasUsadas = styled.p`
 
   span {
     font-size: 1rem;
+  }
+
+  @media (max-width: 33rem) {
+    text-align: center;
   }
 `
 

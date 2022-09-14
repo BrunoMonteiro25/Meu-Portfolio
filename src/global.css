@@ -12,5 +12,8 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 34rem) {
+@media (max-width: 23rem) {
+  body {
+    background: #7742b2;
+  }
 }
