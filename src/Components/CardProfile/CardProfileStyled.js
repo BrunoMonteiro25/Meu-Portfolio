@@ -52,11 +52,35 @@ export const Tecnologias = styled.div`
 `
 
 export const Sobre = styled.p`
-  padding: 0 2rem 2rem 2rem;
+  padding: 0 2rem 1.5rem 2rem;
   line-height: 1.3;
   font-size: 0.8rem;
 
   span {
     font-weight: bold;
+  }
+`
+
+export const BaixarCurriculo = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  background: #000;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 1.5rem;
+
+  :hover {
+    background: #111;
+    transform: scale(1.1);
   }
 `
