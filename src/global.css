@@ -4,6 +4,8 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #7742b2 #f180ff;
 }
 
 body {
@@ -30,4 +32,18 @@ body::-webkit-scrollbar-thumb {
   background-color: #7742b2;
   border-radius: 20px;
   border: 3px solid #f180ff;
+}
+
+@-moz-document url-prefix() {
+  .moz {
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 33rem) {
+  @-moz-document url-prefix() {
+    .botoes {
+      margin-left: 3rem;
+    }
+  }
 }

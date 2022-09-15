@@ -1,16 +1,23 @@
 import React from 'react'
-import { ButtonGithub, ButtonLinkdin, Nav } from './HeaderStyled'
+import {
+  ButtonGithub,
+  ButtonLinkdin,
+  Buttons,
+  Logo,
+  Nav,
+  NavContainer,
+} from './HeaderStyled'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Header = () => {
   return (
     <>
       <Nav>
-        <div className="container">
-          <div className="logo">
+        <NavContainer>
+          <Logo>
             <h2>BM</h2>
-          </div>
-          <div className="buttons">
+          </Logo>
+          <Buttons className="moz">
             <ButtonLinkdin href="https://www.google.com/" target="_blank">
               <FaLinkedin />
               Linkedin
@@ -22,8 +29,8 @@ const Header = () => {
               <FaGithub />
               Github
             </ButtonGithub>
-          </div>
-        </div>
+          </Buttons>
+        </NavContainer>
       </Nav>
     </>
   )

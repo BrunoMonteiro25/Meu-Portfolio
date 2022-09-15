@@ -67,7 +67,7 @@ const Projetos = () => {
                 <span>Tecnologias usadas: </span>
                 {projeto.tecnologias}
               </TecnologiasUsadas>
-              <Botoes>
+              <Botoes className="botoes">
                 {projeto.id === 1 && (
                   <Demo style={{ cursor: 'no-drop' }}>
                     <FaExternalLinkAlt />
