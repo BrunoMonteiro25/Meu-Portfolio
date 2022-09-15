@@ -2,26 +2,26 @@ import styled from 'styled-components'
 
 export const Nav = styled.div`
   border-bottom: 1px solid #dcb6e1;
+`
 
-  .container {
-    max-width: 70rem;
-    margin: 0 auto;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+export const NavContainer = styled.div`
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
 
-  .logo {
-    padding: 0.5rem;
-    border: 3px solid;
-    border-radius: 50%;
-    font-family: 'Roboto Slab', serif;
-  }
+export const Logo = styled.div`
+  padding: 0.5rem;
+  border: 3px solid;
+  border-radius: 50%;
+  font-family: 'Roboto Slab', serif;
+`
 
-  .buttons {
-    display: flex;
-  }
+export const Buttons = styled.div`
+  display: flex;
 `
 
 export const ButtonLinkdin = styled.a`
