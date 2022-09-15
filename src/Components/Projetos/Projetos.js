@@ -3,7 +3,6 @@ import {
   Botoes,
   ContainerImg,
   Demo,
-  Imagem,
   MeusProjetos,
   Projeto,
   Repositorio,
@@ -69,18 +68,26 @@ const Projetos = () => {
               </TecnologiasUsadas>
               <Botoes className="botoes">
                 {projeto.id === 1 && (
-                  <Demo style={{ cursor: 'no-drop' }}>
+                  <Demo style={{ cursor: 'no-drop', opacity: '0.7' }}>
                     <FaExternalLinkAlt />
                     Demo
                   </Demo>
                 )}
                 {projeto.id != 1 && (
-                  <Demo href={projeto.botaoDemo} target="_blank">
+                  <Demo
+                    title="Ver projeto online"
+                    href={projeto.botaoDemo}
+                    target="_blank"
+                  >
                     <FaExternalLinkAlt />
                     Demo
                   </Demo>
                 )}
-                <Repositorio href={projeto.botaoGit} target="_blank">
+                <Repositorio
+                  title="Ver código fonte no Github"
+                  href={projeto.botaoGit}
+                  target="_blank"
+                >
                   <FaGithub />
                   Repositório
                 </Repositorio>
