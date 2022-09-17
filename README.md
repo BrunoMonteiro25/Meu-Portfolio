@@ -1,8 +1,8 @@
 
- [Funcionalidades](#funcionalidades) | [Projeto Online](#projeto-online) | [Tecnologias](#tecnologias) | [Como rodar a aplicação](#como-rodar-a-aplicação)
+ [Funcionalidades](#funcionalidades) | [Projeto Online](#projeto-online-dash) | [Tecnologias](#tecnologias-computer) | [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 ##
 
-### Descrição do Projeto
+### Descrição do Projeto :star:
 
 Meu portfólio pessoal feito em React com Styled Components.
 
@@ -16,12 +16,49 @@ Meu portfólio pessoal feito em React com Styled Components.
 - Download do currículo
 - Links externos(Linkedin, Github, Repositório do Projeto, Projeto Online)
 
-### Projeto Online
+### Projeto Online :dash:
 
 > Em Breve...
 
-### Tecnologias
+### Tecnologias :computer:
 
 - HTML5, CSS3, JavaScript, ReactJS, Styled Components
 
-### Como rodar a aplicação
+### Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto: 
+
+```
+git clone https://github.com/BrunoMonteiro25/Meu-Portfolio.git
+```
+
+Entre na pasta do projeto:  
+
+```
+cd portfolio
+```
+
+Instale as dependecias:
+
+```
+npm install
+```
+
+Execute a aplicação:
+
+```
+npm start
+```
+
+Pronto, agora é possível acessar a aplicação a partir da rota http://localhost:3000/ 
+
+
+
+
+
+
+
+
+
+
+
