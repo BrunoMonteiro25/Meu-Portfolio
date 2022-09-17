@@ -1,5 +1,5 @@
 
- [Funcionalidades](#funcionalidades) | [Projeto Online](#projeto-online-dash) | [Tecnologias](#tecnologias-computer) | [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+ [Funcionalidades](#funcionalidades-checkered_flag) | [Projeto Online](#projeto-online-dash) | [Tecnologias](#tecnologias-computer) | [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 ##
 
 ### Descrição do Projeto :star:
@@ -11,7 +11,7 @@ Meu portfólio pessoal feito em React com Styled Components.
 > Status do Projeto: Concluido :heavy_check_mark:
 
 
-### Funcionalidades
+### Funcionalidades :checkered_flag:
 
 - Download do currículo
 - Links externos(Linkedin, Github, Repositório do Projeto, Projeto Online)
