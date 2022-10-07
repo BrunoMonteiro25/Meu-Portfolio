@@ -22,7 +22,7 @@ Meu portfólio pessoal feito em React com Styled Components.
 
 ### Projeto Online :dash:
 
-> Em Breve...
+> https://meu-portfolio-beryl.vercel.app/
 
 ### Tecnologias :computer:
 
