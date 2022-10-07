@@ -18,7 +18,10 @@ const Header = () => {
             <h2>BM</h2>
           </Logo>
           <Buttons className="moz">
-            <ButtonLinkdin href="https://www.google.com/" target="_blank">
+            <ButtonLinkdin
+              href="https://www.linkedin.com/in/bruno-monteiro-796430252/"
+              target="_blank"
+            >
               <FaLinkedin />
               Linkedin
             </ButtonLinkdin>

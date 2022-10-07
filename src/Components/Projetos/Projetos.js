@@ -36,7 +36,7 @@ const Projetos = () => {
         'Lista de filmes populares, consumida da API gratuita, The Movies DB.',
       tecnologias:
         'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS e Styled Components',
-      botaoDemo: 'https://www.google.com/',
+      botaoDemo: 'https://api-filmes-two.vercel.app/',
       botaoGit: 'https://github.com/BrunoMonteiro25/api-filmes',
     },
     {
@@ -45,7 +45,7 @@ const Projetos = () => {
       titulo: 'Projeto Dogs',
       sobre: 'Uma rede social tipo instagram, mas para cachorros.',
       tecnologias: 'HTML5, CSS3 (FlexBox e CSS Grid), JavaScript, ReactJS',
-      botaoDemo: 'https://www.google.com/',
+      botaoDemo: 'https://dogs-lyart.vercel.app/',
       botaoGit: 'https://github.com/BrunoMonteiro25/Dogs',
     },
   ]
