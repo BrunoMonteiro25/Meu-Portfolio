@@ -5,7 +5,7 @@
 
 ### Descrição do Projeto :star:
 
-Meu portfólio pessoal feito em React com Styled Components
+Meu portfólio pessoal feito em React com Styled Components.
 
 ![portfolio_web](https://user-images.githubusercontent.com/98993736/190808438-83171405-f716-4aaf-851d-abdc85db3881.png)
 
